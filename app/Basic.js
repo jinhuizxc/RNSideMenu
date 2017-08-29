@@ -89,6 +89,7 @@ export default class Basic extends Component {
                     isOpen={this.state.isRightOpen}
                     menuPosition='right'
                     onChange={isRightOpen => this.updateMenuState1(isRightOpen)}
+                    // 设置间距
                     openMenuOffset={200}>
 
 
